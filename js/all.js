@@ -6,8 +6,6 @@ $(function(){
    $.ajax({
      type  : 'GET',
      url   : 'json/data.json',
-     async : false,
-     datatype : 'json',
      success: function (data) {
              var thisdata = JSON.parse(data);
              var con = $('#select').val();
