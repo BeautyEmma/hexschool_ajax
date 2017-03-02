@@ -5,7 +5,7 @@ $(function(){
         $('#js-tbody').html(''); 
    $.ajax({
      type  : 'GET',
-     url   : 'http://opendata.khcc.gov.tw/public/OD_art_program.ashx?SDate=2017/02/18&EDate=2017/08/18',
+     url   : 'json/data.json',
      async : false,
      datatype : 'json',
      success: function (data) {
