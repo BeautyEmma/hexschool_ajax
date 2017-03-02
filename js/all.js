@@ -6,7 +6,7 @@ $(function(){
    $.ajax({
      type  : 'GET',
      url   : 'data.json',
-     async:false,
+     async:true,
      dataType:'json',
      success: function (data) {
              var thisdata = JSON.parse(data);
