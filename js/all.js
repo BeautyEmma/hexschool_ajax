@@ -5,7 +5,7 @@ $(function(){
         $('#js-tbody').html(''); 
    $.ajax({
      type     : 'GET',
-     url      : '..json/data.json',
+     url      : 'data.json',
      async    : true,
      dataType : 'json',
      success  : function (data) {
