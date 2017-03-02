@@ -12,8 +12,6 @@ $(function(){
                     var thisdata = data;
                     var con = $('#select').val();
          
-         console.log('load data success, start for');
-            
             //表格內容開始
          
             	for(var i=0; i<thisdata.length; i++){
@@ -37,7 +35,6 @@ $(function(){
 					} // End of Search
 	        
 				}// End of for
-         console.log('for success');
          //表格內容結束
          
          } //end of success function
