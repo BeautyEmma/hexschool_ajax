@@ -4,13 +4,13 @@ $(function(){
         $('.content').show();
         $('#js-tbody').html(''); 
    $.ajax({
-     type  : 'GET',
-     url   : 'data.json',
-//     async:true,
-//     dataType:'json',
-     success: function (data) {
-             var thisdata = JSON.parse(data);
-             var con = $('#select').val();
+     type     : 'GET',
+     url      : '..json/data.json',
+     async    : true,
+     dataType : 'json',
+     success  : function (data) {
+                    var thisdata = data;
+                    var con = $('#select').val();
          
          console.log('load data success, start for');
             
