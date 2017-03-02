@@ -11,6 +11,8 @@ $(function(){
      success: function (data) {
              var thisdata = JSON.parse(data);
              var con = $('#select').val();
+         
+         console.log('load data success, start for');
             
             //表格內容開始
          
@@ -35,7 +37,7 @@ $(function(){
 					} // End of Search
 	        
 				}// End of for
-         
+         console.log('for success');
          //表格內容結束
          
          } //end of success function
