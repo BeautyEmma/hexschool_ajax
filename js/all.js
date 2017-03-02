@@ -5,7 +5,7 @@ $(function(){
         $('#js-tbody').html(''); 
    $.ajax({
      type  : 'GET',
-     url   : '/json/data.json',
+     url   : 'data.json',
      success: function (data) {
              var thisdata = JSON.parse(data);
              var con = $('#select').val();
